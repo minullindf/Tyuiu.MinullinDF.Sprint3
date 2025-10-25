@@ -12,7 +12,7 @@ namespace Tyuiu.MinullinDF.Sprint3.Task2.V15.Test
             int startValue = 1;
             int endValue = 20;
             var res = ds.GetSumSeries(a, startValue, endValue);
-            var wait = 0.094;
+            var wait = 0.298;
             Assert.AreEqual(wait, res);
         }
     }

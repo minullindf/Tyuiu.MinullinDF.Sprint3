@@ -11,7 +11,7 @@ namespace Tyuiu.MinullinDF.Sprint3.Task2.V15.Lib
             {
                 s += (Math.Pow(value, startValue)+0.5)*Math.Cos(startValue);
                 startValue++;
-            } while (startValue < stopValue);
+            } while (startValue <= stopValue);
             return Math.Round(s, 3);
         }
     }
