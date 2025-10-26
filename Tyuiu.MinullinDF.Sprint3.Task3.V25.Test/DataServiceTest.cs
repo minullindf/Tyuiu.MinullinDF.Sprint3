@@ -11,7 +11,7 @@ namespace Tyuiu.MinullinDF.Sprint3.Task3.V25.Test
             String text = "kjhgfuu gujut dtuu";
             Char c = 'u';
             var res = ds.GetMinCharCount(text, c);
-            int wait = 2;
+            int wait = 1;
             Assert.AreEqual(wait, res);
         }
     }

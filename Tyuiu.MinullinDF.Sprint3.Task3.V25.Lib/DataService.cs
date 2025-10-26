@@ -15,7 +15,7 @@ namespace Tyuiu.MinullinDF.Sprint3.Task3.V25.Lib
                 }
                 else
                 {
-                    if (count >= 2 | (a < count & a > 1)) 
+                    if (count >= 1 | (a < count & a > 1)) 
                     {
                         a = count;
                     }
