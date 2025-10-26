@@ -1,5 +1,4 @@
-﻿using System.Text.Json;
-using tyuiu.cources.programming.interfaces.Sprint3;
+﻿using tyuiu.cources.programming.interfaces.Sprint3;
 namespace Tyuiu.MinullinDF.Sprint3.Task2.V15.Lib
 {
     public class DataService : ISprint3Task2V15
