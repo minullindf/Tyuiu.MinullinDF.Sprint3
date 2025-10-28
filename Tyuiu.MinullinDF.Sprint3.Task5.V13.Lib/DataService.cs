@@ -8,11 +8,11 @@ namespace Tyuiu.MinullinDF.Sprint3.Task5.V13.Lib
             double s1 = 0;
             double s2 = 0;
 
-            for (int i = startValue1; i <= stopValue1; i++) 
+            for (int i = startValue1; i < stopValue1; i++) 
             {
                 for (int j = startValue2; j <= stopValue2; j++) 
                 {
-                    s1 += (Math.Cos(x) + (j/2));
+                    s1 += (Math.Cos(x) + j/2.0);
                 }
                 s2 += s1;
             }

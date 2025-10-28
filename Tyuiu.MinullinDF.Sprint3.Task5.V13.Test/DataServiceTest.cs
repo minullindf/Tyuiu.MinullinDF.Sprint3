@@ -9,12 +9,12 @@ namespace Tyuiu.MinullinDF.Sprint3.Task5.V13.Test
         {
             int x = 5;
             int i1 = 1;
-            int i2 = 3;
-            int k1 = 1;
+            int i2 = 1;
+            int k1 = 3;
             int k2 = 12;
             DataService ds = new DataService();
             var res = ds.GetSumSumSeries(x, i1, i2, k1, k2);
-            double wait = 37.837;
+            double wait = 127.212;
             Assert.AreEqual(wait, res);
 
         }
